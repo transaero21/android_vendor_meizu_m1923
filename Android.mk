@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter m1923,$(m1926)),)
+ifneq ($(filter m1923 m1926,$(TARGET_DEVICE)),)
 
 endif
